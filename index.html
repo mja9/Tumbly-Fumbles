@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+
+  <title> JS Game</title>
+  <meta name="author" content="Miguel Arana">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css"> 
+
+</head>
+
+
+<body>
+  
+  <div class="metrics">
+
+    <span class="time"> Time Remaining: <span id="time-numeric"></span> </span> <span class="score"> Score: <span id="score-numeric"></span> </span>
+    <span class="high-score"> Highscore: <span id="high-score-numeric"></span> </span> <span class="average-time"> Average Time at Max: <span id="average-numeric"></span> </span>
+
+  </div>
+
+  <div class="screen">
+  
+    <canvas id="tv"></canvas>
+  
+
+  </div>
+  
+  <div class="controller">
+
+
+    <table id="controller-display">
+      
+      <tr> 
+
+        <td id="top-left"> 
+          <p> <button id="placeholder"></button> </p>
+          <p> <button id="left"> < </button> </p>
+        </td>
+        <td id="has-up"> 
+          
+          <p> <button id="up"></button> </p>
+          <p> <button id="down"></button> </p>
+        
+        </td>
+        <td id="top-right">
+          <p> <button id="placeholder"></button> </p>
+          <p> <button id="right"> > </button> </p>
+          </td>
+
+      </tr>
+
+      <tr> 
+
+        <td id="has-left">  </td>
+        <td id="bottom"></td>
+        <td id="has-right">  </td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+</body>
+
+<script src="game objects.js"></script>
+<script src="model.js"></script>
+<script src="control.js"></script>
+
+<!-- Images for game -->
+<img src="https://lh3.googleusercontent.com/proxy/i9boerEMnNEpHgKdjSFsPA3yCRY5J_O-By1bC2yDjAhF7lQunU4lu81DcjDCIvHq3ACWVbAbQsCHEFamzIggprxyqS5ckLIX" id="quit" hidden="true">
+<img src="https://www.pikpng.com/pngl/m/65-654236_png-file-svg-pause-button-icon-png-clipart.png" id="pause" hidden="true">
+<img src="https://www.pngitem.com/pimgs/m/157-1579149_transparent-start-button-png-pixel-game-start-button.png" id="start" hidden="true">
+<img src="https://www.netclipart.com/pp/m/30-305950_buttons-clipart-power-sign-business-continuity-plan-for.png" id="power-idle" hidden="true">
+<img src="https://www.netclipart.com/pp/m/168-1680130_original-png-clip-art-file-plain-power-on.png" id="power-clicked" hidden="true" onload="init()">
+
+
+
+</html>

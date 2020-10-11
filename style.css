@@ -1,0 +1,143 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.metrics {
+    background-color: deeppink;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 4.5%;
+}
+
+.time {
+    font-family: fantasy;
+    color: #003300;
+    font-size: 18pt;
+}
+
+.score {
+    font-family: fantasy;
+    color: #003300;
+    font-size: 18pt;
+}
+
+.high-score {
+    font-family: fantasy;
+    color: #003300;
+    font-size: 18pt;
+}
+
+.average-time {
+    font-family: fantasy;
+    color: #003300;
+    font-size: 18pt;
+}
+
+#time-numeric {
+    padding-right: 100px;
+}
+
+#score-numeric {
+    padding-right: 225px;
+}
+
+#high-score-numeric {
+    padding-right: 100px;
+}
+
+#tv {
+    background-color: black;
+    position: fixed;
+    width: 50%;
+    height: 90%;
+    left: 10%;
+    top: 5%
+}
+
+#controller-display {
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    top: 37.5%;
+    left: 70%;
+    border-collapse: collapse;
+}
+
+#top-left{
+    border-top-left-radius: 100px;
+    background-color: gray;
+}
+
+#has-up {
+    background-color: gray;
+}
+
+#top-right {
+    border-top-right-radius: 100px;
+    background-color: gray;
+}
+
+#has-left {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: gray;
+}
+
+#bottom {
+    position: relative;
+    height: 35%;
+}
+
+#has-right {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: gray;
+}
+
+#up {
+    display: block;
+    margin: auto;
+    background-color: deeppink;
+    width: 30px;
+    border: none;
+}
+
+#down {
+    display: block;
+    margin: auto;
+    background-color: deeppink;
+    border: none;
+}
+
+#placeholder {
+    display: block;
+    margin: auto;
+    background-color: gray;
+    border: none;
+}
+
+#right {
+    position: relative;
+    left: 25%;
+    width: 50px;
+    height: 50px;
+    background-color: #ff99cf;
+    font-size: 20pt;
+    color: gray;
+    border: none;
+    border-radius: 10px;
+}
+
+#left {
+    position: relative;
+    left: 25%;
+    width: 50px;
+    height: 50px;
+    background-color: #ff99cf;
+    font-size: 20pt;
+    color: gray;
+    border: none;
+    border-radius: 10px;
+}
